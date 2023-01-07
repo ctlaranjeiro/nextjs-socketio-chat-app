@@ -7,10 +7,10 @@ type NextHeadT = {
 
 const NextHead = ({ title='NextJS app', metaDescription='NextJS app'}: NextHeadT) => (
 	<Head>
-		<title>Chat | {title}</title>
+		<title>{`Chat | ${title}`}</title>
 		<meta name="description" content={`Chat | ${metaDescription}`} />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" href="/favicon.svg" />
 	</Head>
 )
 
